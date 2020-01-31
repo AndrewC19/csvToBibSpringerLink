@@ -21,7 +21,7 @@ Open the .bib file located under the 'bibtex_files' folder
 ```
 
 ## Output Format
-```tex
+```bibtex
 @Article{kaijunRen2013,
  authors = {'Kaijun Ren', 'Junqiang Song', 'Min Zhu', 'Nong Xiao'},
  doi = {10.1007/s11227-011-0645-x},
