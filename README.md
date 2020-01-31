@@ -11,14 +11,17 @@ python3 springer_link_csv_to_bibtex.py -i "csv_files/example.csv" -o "bibtex_fil
 ```
 
 ## Input Format
+```csv
 Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
 A bargaining-driven global QoS adjustment approach for optimizing service composition execution path,The Journal of Supercomputing,,63,1,10.1007/s11227-011-0645-x,Kaijun RenJunqiang SongMin ZhuNong Xiao,2013,http://link.springer.com/article/10.1007/s11227-011-0645-x,Article
 A Biomedical Decision Support System Using LS-SVM Classifier with an Efficient and New Parameter Regularization Procedure for Diagnosis of Heart Valve Diseases,Journal of Medical Systems,,36,2,10.1007/s10916-010-9500-5,Emre ÇomakAhmet Arslan,2012,http://link.springer.com/article/10.1007/s10916-010-9500-5,Article
 A comparative study on parameter identification of fluid viscous dampers with different models,Archive of Applied Mechanics,,84,8,10.1007/s00419-014-0869-3,Rita GrecoJennifer AvakianGiuseppe Carlo Marano,2014,http://link.springer.com/article/10.1007/s00419-014-0869-3,Article
 Yet Another Intelligent Code-Generating System: A Flexible and Low-Cost Solution,Journal of Computer Science and Technology,,33,5,10.1007/s11390-018-1867-7,João Fabrício FilhoLuis Gustavo Araujo RodriguezAnderson Faustino da Silva,2018,http://link.springer.com/article/10.1007/s11390-018-1867-7,Article
 Open the .bib file located under the 'bibtex_files' folder
+```
 
 ## Output Format
+```tex
 @Article{kaijunRen2013,
  authors = {'Kaijun Ren', 'Junqiang Song', 'Min Zhu', 'Nong Xiao'},
  doi = {10.1007/s11227-011-0645-x},
@@ -54,5 +57,5 @@ Open the .bib file located under the 'bibtex_files' folder
  url = {http://link.springer.com/article/10.1007/s11390-018-1867-7},
  year = {2018}
 }
-
+```
 
