@@ -1,4 +1,4 @@
-# CSV to Bibtex for SpringerLinke auto-generated references
+# CSV to Bibtex for SpringerLink auto-generated references
 A lightweight python-based tool to convert a SpringerLink auto-generated csv reference file to bibtex (.bib) format, increasing compatibility with reference management tools such as Mendeley and JabRef.
 
 ## Useage
