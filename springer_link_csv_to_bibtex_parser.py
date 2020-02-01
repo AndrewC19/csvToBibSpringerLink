@@ -30,7 +30,7 @@ class CsvToBibtexParser:
     def convert_csv_to_bibtex(self):
         csv_dict = self.csv.to_dict('records')
         writer = BibTexWriter()
-        with open(self.output_path, 'w') as bibtex_file:
+        with open(self.output_path, 'w', encoding="utf-8") as bibtex_file:
             for csv_entry in csv_dict:
                 bibtex_entry = self.convert_csv_entry_to_bibtex_entry(csv_entry)
                 bibtex_file.write(writer.write(bibtex_entry))
