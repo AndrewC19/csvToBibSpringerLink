@@ -37,6 +37,7 @@ class TestJoinNamesAsCamelCase(unittest.TestCase):
 
 
 class TestConvertCsvToBibtex(unittest.TestCase):
+
     def setUp(self):
         self.test_directory = tempfile.mkdtemp()
 
@@ -59,6 +60,7 @@ class TestConvertCsvToBibtex(unittest.TestCase):
         parser.convert_csv_to_bibtex()
         self.assertTrue(filecmp.cmp(test_multiple_bibtex_entries, expected_multiple_bibtex_entries),
                         "Files do not match")
+
 
 if __name__ == '__main__':
     unittest.main()
