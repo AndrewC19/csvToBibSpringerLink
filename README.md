@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/AndrewC19/csvToBibSpringerLink/branch/master/graph/badge.svg)](https://codecov.io/gh/AndrewC19/csvToBibSpringerLink)
+
 # CSV to Bibtex for SpringerLink auto-generated references
 A lightweight python-based tool to convert a SpringerLink auto-generated csv reference file to bibtex (.bib) format, increasing compatibility with reference management tools such as Mendeley and JabRef
 
