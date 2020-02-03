@@ -40,7 +40,6 @@ class CsvToBibtexParser:
         bibtex_entry = BibDatabase()
         authors_list = self.get_authors_from_csv_entry(document_record)
         formatted_authors_list = self.remove_braces_and_quotes_from_authors_list(authors_list)
-        print(formatted_authors_list)
         bibtex_entry.entries = [
             {'journal': str(document_record['Publication Title']),
              'title': str(document_record['Item Title']),
