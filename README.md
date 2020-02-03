@@ -25,40 +25,50 @@ Yet Another Intelligent Code-Generating System: A Flexible and Low-Cost Solution
 
 ## Output Format (Bibtex)
 ```bibtex
-@Article{kaijunRen2013,
- authors = {'Kaijun Ren', 'Junqiang Song', 'Min Zhu', 'Nong Xiao'},
- doi = {10.1007/s11227-011-0645-x},
- journal = {The Journal of Supercomputing},
- title = {A bargaining-driven global QoS adjustment approach for optimizing service composition execution path},
- url = {http://link.springer.com/article/10.1007/s11227-011-0645-x},
- year = {2013}
+@Article{pardeepKumarArora2018,
+ author = {Pardeep Kumar Arora, Rajesh Bhatia},
+ doi = {10.1007/s13369-017-2796-4},
+ journal = {Arabian Journal for Science and Engineering},
+ title = {A Systematic Review of Agent-Based Test Case Generation for Regression Testing},
+ url = {http://link.springer.com/article/10.1007/s13369-017-2796-4},
+ year = {2018}
 }
 
-@Article{emreÇomak2012,
- authors = {'Emre Çomak', 'Ahmet Arslan'},
- doi = {10.1007/s10916-010-9500-5},
- journal = {Journal of Medical Systems},
- title = {A Biomedical Decision Support System Using LS-SVM Classifier with an Efficient and New Parameter Regularization Procedure for Diagnosis of Heart Valve Diseases},
- url = {http://link.springer.com/article/10.1007/s10916-010-9500-5},
+@Article{chiKeenLow1999,
+ author = {Chi Keen Low, T. Y. Chen, Ralph Rónnquist},
+ doi = {10.1023/A:1010011219782},
+ journal = {Autonomous Agents and Multi-Agent Systems},
+ title = {Automated Test Case Generation for BDI Agents},
+ url = {http://link.springer.com/article/10.1023/A%3A1010011219782},
+ year = {1999}
+}
+
+@Article{jiaZhang2011,
+ author = {Jia Zhang},
+ doi = {10.1007/s11277-009-9879-9},
+ journal = {Wireless Personal Communications},
+ title = {A Mobile Agent-Based Tool Supporting Web Services Testing},
+ url = {http://link.springer.com/article/10.1007/s11277-009-9879-9},
+ year = {2011}
+}
+
+@Article{michaelLuck2004,
+ author = {Michael Luck, Peter Mc, Burney, Chris Preist},
+ doi = {10.1023/B:AGNT.0000038027.29035.7c},
+ journal = {Autonomous Agents and Multi-Agent Systems},
+ title = {A Manifesto for Agent Technology: Towards Next Generation Computing},
+ url = {http://link.springer.com/article/10.1023/B%3AAGNT.0000038027.29035.7c},
+ year = {2004}
+}
+
+@Article{cuDNguyen2012,
+ author = {Cu D. Nguyen, Simon Miles, Anna Perini, Paolo Tonella, Mark Harman, Michael Luck},
+ doi = {10.1007/s10458-011-9175-4},
+ journal = {Autonomous Agents and Multi-Agent Systems},
+ title = {Evolutionary testing of autonomous software agents},
+ url = {http://link.springer.com/article/10.1007/s10458-011-9175-4},
  year = {2012}
 }
 
-@Article{ritaGreco2014,
- authors = {'Rita Greco', 'Jennifer Avakian', 'Giuseppe Carlo Marano'},
- doi = {10.1007/s00419-014-0869-3},
- journal = {Archive of Applied Mechanics},
- title = {A comparative study on parameter identification of fluid viscous dampers with different models},
- url = {http://link.springer.com/article/10.1007/s00419-014-0869-3},
- year = {2014}
-}
-
-@Article{joãoFabrícioFilho2018,
- authors = {'João Fabrício Filho', 'Luis Gustavo Araujo Rodriguez', 'Anderson Faustino da Silva'},
- doi = {10.1007/s11390-018-1867-7},
- journal = {Journal of Computer Science and Technology},
- title = {Yet Another Intelligent Code-Generating System: A Flexible and Low-Cost Solution},
- url = {http://link.springer.com/article/10.1007/s11390-018-1867-7},
- year = {2018}
-}
 ```
 
