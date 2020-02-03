@@ -38,10 +38,13 @@ class CsvToBibtexParser:
     def convert_csv_entry_to_bibtex_entry(self, document_record):
         bibtex_key = self.create_bibtex_entry_key_from_csv_entry(document_record)
         bibtex_entry = BibDatabase()
+        authors_list = self.get_authors_from_csv_entry(document_record)
+        formatted_authors_list = self.remove_braces_and_quotes_from_authors_list(authors_list)
+        print(formatted_authors_list)
         bibtex_entry.entries = [
             {'journal': str(document_record['Publication Title']),
              'title': str(document_record['Item Title']),
-             'author': self.get_authors_from_csv_entry(document_record),
+             'author': formatted_authors_list,
              'year': str(document_record['Publication Year']),
              'doi': str(document_record['Item DOI']),
              'url': str(document_record['URL']),
@@ -61,5 +64,10 @@ class CsvToBibtexParser:
     def get_authors_from_csv_entry(csv_entry):
         document_authors = str(csv_entry['Authors'])
         document_authors_list = split_camel_case_joined_names(document_authors)
-        document_authors_list_without_quotes_or_braces = str(document_authors_list).replace("'", "")[1:-1]
-        return document_authors_list_without_quotes_or_braces
+        return document_authors_list
+
+    @staticmethod
+    def remove_braces_and_quotes_from_authors_list(authors_list):
+        authors_list_without_braces = str(authors_list)[1:-1]
+        authors_list_without_braces_or_quotes = str(authors_list_without_braces).replace("'", "")
+        return authors_list_without_braces_or_quotes
