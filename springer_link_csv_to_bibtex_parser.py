@@ -41,7 +41,7 @@ class CsvToBibtexParser:
         bibtex_entry.entries = [
             {'journal': str(document_record['Publication Title']),
              'title': str(document_record['Item Title']),
-             'authors': str(self.get_authors_from_csv_entry(document_record))[1:-1],
+             'author': self.get_authors_from_csv_entry(document_record),
              'year': str(document_record['Publication Year']),
              'doi': str(document_record['Item DOI']),
              'url': str(document_record['URL']),
@@ -61,4 +61,5 @@ class CsvToBibtexParser:
     def get_authors_from_csv_entry(csv_entry):
         document_authors = str(csv_entry['Authors'])
         document_authors_list = split_camel_case_joined_names(document_authors)
-        return document_authors_list
+        document_authors_list_without_quotes_or_braces = str(document_authors_list).replace("'", "")[1:-1]
+        return document_authors_list_without_quotes_or_braces
