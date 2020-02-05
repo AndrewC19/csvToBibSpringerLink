@@ -72,3 +72,5 @@ Yet Another Intelligent Code-Generating System: A Flexible and Low-Cost Solution
 
 ```
 
+### Citation
+If you've used the tool as part of a publication, an acknowledgement would be appreciated!
